@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "vant-weapp": "^0.5.15"
+    "@vant/weapp": "^1.3.3"
   }
 }
