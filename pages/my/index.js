@@ -1,4 +1,5 @@
 import { getUserInfo } from '../../services/user';
+import { getValue, setValue } from '../../utils/common';
 
 Page({
   data: {
@@ -11,9 +12,11 @@ Page({
       })
     })
   },
-  goToLogin() {
+
+  logout() {
+    setValue('userId', '');
     wx.navigateTo({
-      url: '/pages/authorize/index',
+      url: '/pages/login/index',
     })
   },
 });
