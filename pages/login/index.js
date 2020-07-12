@@ -2,7 +2,6 @@
 import { login, getUserInfo } from '../../services/user';
 import { setValue, getValue } from '../../utils/common';
 
-
 Page({
 
   data: {
@@ -26,12 +25,12 @@ Page({
       ...this.data
     }).then((res) => {
       if (res.code == 0) {
-        setValue('token', res.data.token);
+        setValue('userId', res.data.userId);
         wx.switchTab({ url: '/pages/home/index' });
       } else {
         wx.showToast({
           icon: 'none',
-          title: '登录失败',
+          title: res.message,
         })
       }
     })

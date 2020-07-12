@@ -4,7 +4,7 @@
 			weapp
 		</van-divider>
 
-    <view style="height: 120px;"></view> 
+		<view style="height: 120px;"></view>
 
 		<van-field value="{{ username }}" required clearable label="用户名" placeholder="请输入用户名" bind:change="onChangeUsername" />
 
