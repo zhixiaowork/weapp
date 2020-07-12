@@ -1,7 +1,7 @@
 # 微信小程序开箱即用
 
 ## 说明
-与[laravel](https://github.com/yaoshanliang/laravel)框架打通
+与[laravel](https://github.com/zhixiaowoork/laravel)框架打通
 
  * 授权、登录
  * 我的页面
@@ -22,4 +22,4 @@
 
 ## 安装
 
-    git clone https://github.com/yaoshanliang/weapp.git
+    git clone https://github.com/zhixiaowork/weapp.git
