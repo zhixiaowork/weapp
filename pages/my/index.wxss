@@ -19,7 +19,7 @@ page {
 }
 
 .topBG {
-  background-color: #1bd0ad;
+  background-color: #1890ff;
   height: 250rpx;
   position: relative;
   width: 100%;

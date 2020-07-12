@@ -1,0 +1,17 @@
+.page {
+  background-color: #1890ff;
+  padding: 20px;
+  height: 100vh;
+}
+.logo {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: #1890ff;
+}
+.form {
+  padding-top: 20px;
+}
+.button{
+  padding-top: 240px;
+}

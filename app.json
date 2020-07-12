@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/welcome/index",
+    "pages/login/index",
     "pages/home/index",
     "pages/my/index",
     "pages/authorize/index",
@@ -9,11 +11,11 @@
   ],
   "window": {
     "navigationBarTitleText": "weapp",
-    "navigationBarBackgroundColor": "#1bd0ad",
+    "navigationBarBackgroundColor": "#1890ff",
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
-    "selectedColor": "#1bd0ad",
+    "selectedColor": "#1890ff",
     "list": [
       {
         "pagePath": "pages/home/index",

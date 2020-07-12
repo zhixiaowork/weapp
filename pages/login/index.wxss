@@ -1,0 +1,12 @@
+.page {
+  background-color: #1890ff;
+  padding: 20px;
+  height: 100vh;
+}
+
+.form {
+  padding-top: 40px;
+}
+.button{
+  padding-top: 40px;
+}

@@ -1,0 +1,14 @@
+<view class="page">
+
+	<view class="form">
+		<van-divider contentPosition="center" customStyle="color: #fff; border-color: #fff; font-size: 16px;">
+			weapp
+		</van-divider>
+	</view>
+
+	<view class="button">
+		<van-button block bindtap="login">登录</van-button>
+	</view>
+
+
+</view>
