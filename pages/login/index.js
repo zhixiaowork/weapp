@@ -9,6 +9,17 @@ Page({
     password: ''
   },
 
+  onChangeUsername(event) {
+    this.setData({
+      username: event.detail
+    })
+  },
+
+  onChangePassword(event) {
+    this.setData({
+      password: event.detail
+    })
+  },
   onBlurUsername(event) {
     this.setData({
       username: event.detail.value

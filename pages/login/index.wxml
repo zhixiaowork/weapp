@@ -6,9 +6,9 @@
 
 		<view style="height: 120px;"></view>
 
-		<van-field value="{{ username }}" required clearable label="用户名" placeholder="请输入用户名" bind:blur="onBlurUsername" />
+		<van-field value="{{ username }}" required clearable label="用户名" placeholder="请输入用户名" bind:blur="onBlurUsername" bind:change="onChangeUsername" />
 
-		<van-field value="{{ password }}" clearable type="password" label="密码" placeholder="请输入密码" required bind:blur="onBlurPassword" />
+		<van-field value="{{ password }}" clearable type="password" label="密码" placeholder="请输入密码" required bind:blur="onBlurPassword" bind:change="onChangePassword"/>
 	</view>
 
 	<view class="button">
