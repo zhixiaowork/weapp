@@ -9,15 +9,15 @@ Page({
     password: ''
   },
 
-  onChangeUsername(event) {
+  onBlurUsername(event) {
     this.setData({
-      username: event.detail
+      username: event.detail.value
     })
   },
 
-  onChangePassword(event) {
+  onBlurPassword(event) {
     this.setData({
-      password: event.detail
+      password: event.detail.value
     })
   },
   login() {
