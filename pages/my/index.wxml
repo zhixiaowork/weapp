@@ -7,6 +7,9 @@
     <view class="right">
       <view class="name" wx:if="{{userInfo.nickname}}">{{userInfo.nickname}}</view>
       <view bindtap="goToLogin" class="login" wx:if="{{ !userInfo.nickname}}">点击登录</view>
+      <view class="login">
+        <van-button open-type="getUserInfo" bind:getuserinfo="getUserInfo">点击授权</van-button>
+      </view>
     </view>
   </view>
 </view>
