@@ -13,6 +13,12 @@ Page({
     })
   },
 
+  goToLogin() {
+    wx.navigateTo({
+      url: '/pages/login/index',
+    })
+  },
+  
   logout() {
     setValue('userId', '');
     wx.navigateTo({
